@@ -7,13 +7,15 @@ import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
 import { MaterialModule } from './material/material.module';
 import { BadgeComponent } from './badge/badge.component';
+import { IconsComponent } from './icons/icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
     ButtonComponent,
-    BadgeComponent
+    BadgeComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,

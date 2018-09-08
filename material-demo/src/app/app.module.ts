@@ -9,6 +9,7 @@ import { MaterialModule } from './material/material.module';
 import { BadgeComponent } from './badge/badge.component';
 import { IconsComponent } from './icons/icons.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
     ButtonComponent,
     BadgeComponent,
     IconsComponent,
-    ProgressSpinnerComponent
+    ProgressSpinnerComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

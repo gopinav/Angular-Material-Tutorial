@@ -1,0 +1,8 @@
+.navbar {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+span {
+  padding-right: 1rem;
+}

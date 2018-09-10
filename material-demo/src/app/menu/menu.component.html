@@ -1,3 +1,32 @@
-<p>
-  menu works!
-</p>
+<mat-menu #appMenu='matMenu' [overlapTrigger]="false" xPosition='after' yPosition='above'>
+  <button mat-menu-item [matMenuTriggerFor]="subMenu">FrontEnd</button>
+  <button mat-menu-item>BackEnd</button>
+</mat-menu>
+
+<mat-menu #subMenu="matMenu">
+  <button mat-menu-item>Angular</button>
+  <button mat-menu-item>React</button>
+  <button mat-menu-item>Vue</button>
+</mat-menu>
+
+<button class='center' mat-flat-button [matMenuTriggerFor]='appMenu'>
+  Menu
+</button>
+
+<!-- Lazy Rendering -->
+
+<mat-menu #lazyMenu="matMenu">
+  <ng-template matMenuContent let-name="name" let-hobby="hobby">
+    <button mat-menu-item>Settings</button>
+    <button mat-menu-item>{{hobby}}</button>
+    <button mat-menu-item>Log off {{name}}</button>
+  </ng-template>
+</mat-menu>
+<br/>
+<button mat-icon-button [matMenuTriggerFor]="lazyMenu" [matMenuTriggerData]="{name: 'Vishwas', hobby: 'Football'}">
+  Vishwas
+</button>
+<br />
+<button mat-icon-button [matMenuTriggerFor]="lazyMenu" [matMenuTriggerData]="{name: 'Codevolution', hobby: 'Youtube'}">
+  Codevolution
+</button>

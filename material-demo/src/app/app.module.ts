@@ -11,6 +11,7 @@ import { IconsComponent } from './icons/icons.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MenuComponent } from './menu/menu.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MenuComponent } from './menu/menu.component';
     IconsComponent,
     ProgressSpinnerComponent,
     ToolbarComponent,
-    MenuComponent
+    MenuComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,

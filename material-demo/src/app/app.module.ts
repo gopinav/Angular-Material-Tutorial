@@ -13,6 +13,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MenuComponent } from './menu/menu.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { ListComponent } from './list/list.component';
+import { GridListComponent } from './grid-list/grid-list.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ListComponent } from './list/list.component';
     ToolbarComponent,
     MenuComponent,
     TooltipComponent,
-    ListComponent
+    ListComponent,
+    GridListComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,

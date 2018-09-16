@@ -17,6 +17,7 @@ import { GridListComponent } from './grid-list/grid-list.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
 import { InputComponent } from './input/input.component';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { InputComponent } from './input/input.component';
     GridListComponent,
     TabsComponent,
     CardsComponent,
-    InputComponent
+    InputComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

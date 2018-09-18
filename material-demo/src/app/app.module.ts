@@ -18,6 +18,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
 import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { SelectComponent } from './select/select.component';
     TabsComponent,
     CardsComponent,
     InputComponent,
-    SelectComponent
+    SelectComponent,
+    CheckboxComponent
   ],
   imports: [
     BrowserModule,

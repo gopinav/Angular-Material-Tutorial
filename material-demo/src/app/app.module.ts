@@ -19,6 +19,7 @@ import { CardsComponent } from './cards/cards.component';
 import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     CardsComponent,
     InputComponent,
     SelectComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    RadiobuttonComponent
   ],
   imports: [
     BrowserModule,

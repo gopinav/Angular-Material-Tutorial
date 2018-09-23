@@ -1,22 +1,22 @@
 <mat-form-field>
   <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
 </mat-form-field>
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
   <!-- Position Column -->
   <ng-container matColumnDef="position">
-    <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef mat-sort-header> No. </mat-header-cell>
     <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
   </ng-container>
 
   <!-- Name Column -->
   <ng-container matColumnDef="name">
-    <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
     <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
   </ng-container>
 
   <!-- Weight Column -->
   <ng-container matColumnDef="weight">
-    <mat-header-cell *matHeaderCellDef> Weight </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Weight </mat-header-cell>
     <mat-cell *matCellDef="let element"> {{element.weight}} </mat-cell>
   </ng-container>
 

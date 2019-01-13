@@ -21,6 +21,7 @@ import { SelectComponent } from './select/select.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { DatatableComponent } from './datatable/datatable.component';
     SelectComponent,
     CheckboxComponent,
     RadiobuttonComponent,
-    DatatableComponent
+    DatatableComponent,
+    ButtonToggleComponent
   ],
   imports: [
     BrowserModule,

@@ -22,6 +22,7 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
     CheckboxComponent,
     RadiobuttonComponent,
     DatatableComponent,
-    ButtonToggleComponent
+    ButtonToggleComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,

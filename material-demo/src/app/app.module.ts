@@ -24,6 +24,7 @@ import { DatatableComponent } from './datatable/datatable.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
+import { StepperComponent } from './stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.compo
     DatatableComponent,
     ButtonToggleComponent,
     SidenavComponent,
-    ExpansionPanelComponent
+    ExpansionPanelComponent,
+    StepperComponent
   ],
   imports: [
     BrowserModule,

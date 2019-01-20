@@ -23,6 +23,7 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     RadiobuttonComponent,
     DatatableComponent,
     ButtonToggleComponent,
-    SidenavComponent
+    SidenavComponent,
+    ExpansionPanelComponent
   ],
   imports: [
     BrowserModule,

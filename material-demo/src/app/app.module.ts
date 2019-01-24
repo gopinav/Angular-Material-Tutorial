@@ -25,6 +25,7 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { StepperComponent } from './stepper/stepper.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { StepperComponent } from './stepper/stepper.component';
     ButtonToggleComponent,
     SidenavComponent,
     ExpansionPanelComponent,
-    StepperComponent
+    StepperComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,7 @@
-<p>
-  autocomplete works!
-</p>
+<mat-form-field>
+  <input type="text" matInput [matAutocomplete]="auto">
+</mat-form-field>
+
+<mat-autocomplete #auto="matAutocomplete">
+  <mat-option *ngFor="let option of options" [value]="option">{{option}}</mat-option>
+</mat-autocomplete>

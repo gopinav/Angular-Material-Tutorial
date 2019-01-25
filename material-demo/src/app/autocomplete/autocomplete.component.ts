@@ -12,4 +12,7 @@ export class AutocompleteComponent implements OnInit {
   ngOnInit() {
   }
 
+  // myControl = new FormControl();
+  options: string[] = ['Angular', 'React', 'Vue'];
+
 }

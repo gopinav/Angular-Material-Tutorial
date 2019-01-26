@@ -26,6 +26,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
     SidenavComponent,
     ExpansionPanelComponent,
     StepperComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,

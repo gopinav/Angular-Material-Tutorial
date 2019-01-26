@@ -22,6 +22,8 @@ import {
   MatAutocompleteModule,
   MatCheckboxModule,
   MatRadioModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule
@@ -50,6 +52,8 @@ const Material = [
   MatAutocompleteModule,
   MatCheckboxModule,
   MatRadioModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule

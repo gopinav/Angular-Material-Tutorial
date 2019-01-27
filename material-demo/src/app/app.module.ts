@@ -29,6 +29,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SnackbarComponent, CustomSnackBarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { DialogExampleComponent } from './dialog-example/dialog-example.component';
 
 @NgModule({
   declarations: [
@@ -58,9 +59,10 @@ import { DialogComponent } from './dialog/dialog.component';
     DatepickerComponent,
     SnackbarComponent,
     CustomSnackBarComponent,
-    DialogComponent
+    DialogComponent,
+    DialogExampleComponent
   ],
-  entryComponents: [CustomSnackBarComponent],
+  entryComponents: [CustomSnackBarComponent, DialogExampleComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

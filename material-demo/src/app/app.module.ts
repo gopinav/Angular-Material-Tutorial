@@ -28,6 +28,7 @@ import { StepperComponent } from './stepper/stepper.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SnackbarComponent, CustomSnackBarComponent } from './snackbar/snackbar.component';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { SnackbarComponent, CustomSnackBarComponent } from './snackbar/snackbar.
     AutocompleteComponent,
     DatepickerComponent,
     SnackbarComponent,
-    CustomSnackBarComponent
+    CustomSnackBarComponent,
+    DialogComponent
   ],
   entryComponents: [CustomSnackBarComponent],
   imports: [

@@ -25,6 +25,7 @@ import {
   MatNativeDateModule,
   MatTooltipModule,
   MatSnackBarModule,
+  MatDialogModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule
@@ -56,6 +57,7 @@ const Material = [
   MatNativeDateModule,
   MatTooltipModule,
   MatSnackBarModule,
+  MatDialogModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule

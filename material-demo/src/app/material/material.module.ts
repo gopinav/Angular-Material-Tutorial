@@ -8,7 +8,6 @@ import {
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-  MatTooltipModule,
   MatListModule,
   MatDividerModule,
   MatGridListModule,
@@ -24,6 +23,8 @@ import {
   MatRadioModule,
   MatDatepickerModule,
   MatNativeDateModule,
+  MatTooltipModule,
+  MatSnackBarModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule
@@ -38,7 +39,6 @@ const Material = [
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-  MatTooltipModule,
   MatListModule,
   MatDividerModule,
   MatGridListModule,
@@ -54,6 +54,8 @@ const Material = [
   MatRadioModule,
   MatDatepickerModule,
   MatNativeDateModule,
+  MatTooltipModule,
+  MatSnackBarModule,
   MatTableModule,
   MatSortModule,
   MatPaginatorModule

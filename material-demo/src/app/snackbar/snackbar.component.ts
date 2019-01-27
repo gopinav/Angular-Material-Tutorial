@@ -25,4 +25,13 @@ export class SnackbarComponent implements OnInit {
     });
   }
 
+  openCustomSnackBar() {
+    this.snackBar.openFromComponent(CustomSnackBarComponent, {duration: 2000})
+  }
 }
+
+@Component({
+  selector: 'custom-snackbar',
+  template: `<span style='color: orange'>Custom Snackbar</span>`
+})
+export class CustomSnackBarComponent {}

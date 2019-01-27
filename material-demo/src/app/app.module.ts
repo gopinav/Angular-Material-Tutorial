@@ -27,7 +27,7 @@ import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.compo
 import { StepperComponent } from './stepper/stepper.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
-import { SnackbarComponent } from './snackbar/snackbar.component';
+import { SnackbarComponent, CustomSnackBarComponent } from './snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -55,8 +55,10 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
     StepperComponent,
     AutocompleteComponent,
     DatepickerComponent,
-    SnackbarComponent
+    SnackbarComponent,
+    CustomSnackBarComponent
   ],
+  entryComponents: [CustomSnackBarComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

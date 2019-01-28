@@ -30,6 +30,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SnackbarComponent, CustomSnackBarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogExampleComponent } from './dialog-example/dialog-example.component';
+import { VirtualScrollingComponent } from './virtual-scrolling/virtual-scrolling.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DialogExampleComponent } from './dialog-example/dialog-example.componen
     SnackbarComponent,
     CustomSnackBarComponent,
     DialogComponent,
-    DialogExampleComponent
+    DialogExampleComponent,
+    VirtualScrollingComponent
   ],
   entryComponents: [CustomSnackBarComponent, DialogExampleComponent],
   imports: [

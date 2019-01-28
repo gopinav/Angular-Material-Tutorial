@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VirtualScrollingComponent implements OnInit {
 
-  constructor() { }
+  numbers = [];
+
+  constructor() {
+    for (let i = 0; i < 1000; i++) {
+      this.numbers.push(i)
+    }
+   }
 
   ngOnInit() {
   }
